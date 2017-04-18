@@ -4,7 +4,7 @@ Stuff for shiny app sandbox
 Go to docker directory inside this rep
 
 ```
-sudo docker build --no-cache -t brianomearaorg
+sudo docker build --no-cache -t brianomearaorg .
 ```
 
 Then start

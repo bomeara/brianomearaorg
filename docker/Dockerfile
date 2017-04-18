@@ -30,7 +30,6 @@ RUN \
 cd /srv && \
 rm -r /srv/shiny-server/* && \
 git clone https://github.com/bomeara/brianomearaorg.git && \
-mv /srv/brianomearaorg/web/* /srv/shiny-server/ 
+mv /srv/brianomearaorg/web/* /srv/shiny-server/
 EXPOSE 80
 CMD ["/usr/bin/shiny-server.sh"]
-
