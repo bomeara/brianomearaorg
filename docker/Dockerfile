@@ -6,6 +6,7 @@ FROM rocker/shiny
 
 MAINTAINER Brian O'Meara <omeara.brian@gmail.com>
 RUN \
+rm -rf /var/lib/apt/lists/* && \
 apt-get update && \
 apt-get -y dist-upgrade && \
 apt-get install -y software-properties-common && \
